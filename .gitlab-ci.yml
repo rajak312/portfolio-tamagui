@@ -7,10 +7,14 @@ build:
       - node_modules/
   script:
     - yarn install
-    - cd apps/next && npx next build && npx next export
+    - cd apps/next
+    - npx next build
+    - npx next export
   artifacts:
     paths:
-      - build
+      - apps/next/out
+  only:
+    - main
 
 pages:
   stage: deploy
