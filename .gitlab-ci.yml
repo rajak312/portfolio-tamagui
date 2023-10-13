@@ -18,7 +18,6 @@ pages:
     - build
   script:
     - rm -rf public
-    - cp apps/next/out/index.html apps/next/out/404.html
     - mv apps/next/out public
   artifacts:
     paths:
