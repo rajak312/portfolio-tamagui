@@ -6,7 +6,7 @@ build:
     paths:
       - node_modules/
   script:
-    - npm install
+    - yarn install
   artifacts:
     paths:
       - build
