@@ -39,7 +39,7 @@ const plugins = [
   withTamagui({
     // output: "export",
     config: './tamagui.config.ts',
-    components: ['tamagui', '@my/ui'],
+    components: ['tamagui', 'ui'],
     importsWhitelist: ['constants.js', 'colors.js'],
     outputCSS: process.env.NODE_ENV === 'production' ? './public/tamagui.css' : null,
     logTimings: true,

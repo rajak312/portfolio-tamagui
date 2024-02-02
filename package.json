@@ -32,8 +32,11 @@
     "@manypkg/cli": "^0.19.1",
     "check-dependency-version-consistency": "^3.0.3",
     "eslint": "^8.21.0",
+    "expo-image": "^1.10.5",
     "node-gyp": "^9.3.1",
     "prettier": "^2.7.1",
+    "react-color": "^2.19.3",
+    "react-reveal": "^1.2.2",
     "turbo": "^1.10.3",
     "typescript": "^5.1.3"
   },
