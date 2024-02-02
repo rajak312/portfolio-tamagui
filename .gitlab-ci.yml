@@ -9,6 +9,7 @@ build:
     - yarn install
     - cd apps/next
     - npx next build
+    - npx next export
   artifacts:
     paths:
       - apps/next/out
